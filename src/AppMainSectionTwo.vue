@@ -15,7 +15,7 @@ export default {
             </div>
         </div>
 
-        <div class="col-5">
+        <div class="col-5 ps-5">
             <p>
                 TESTO
             </p>
