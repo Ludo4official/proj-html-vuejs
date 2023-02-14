@@ -34,7 +34,7 @@ export default {
 <style lang="scss" scoped>
 
 .my-row {
-    margin-top: 150px;
+    margin-top: 250px;
     min-height: 500px;
 
     .bg-img {

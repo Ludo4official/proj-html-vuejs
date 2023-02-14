@@ -22,12 +22,12 @@ export default {
 </script>
 
 <template>
-  
+
  <AppHeader></AppHeader>
 
- <div class="container">
-    <AppMain></AppMain>
- </div>
+ 
+<AppMain></AppMain>
+ 
  
  <div class="container">
     <AppFooter></AppFooter>

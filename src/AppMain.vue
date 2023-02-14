@@ -22,13 +22,19 @@ export default {
 
 <template>
 
-    <AppMainSectionOne></AppMainSectionOne>
-    <AppMainSectionTwo></AppMainSectionTwo>
-    <AppMainSectionThree ></AppMainSectionThree>
-    <AppMainSectionFour></AppMainSectionFour>
-    <AppMainSectionFive></AppMainSectionFive>
+    <div class="container">
+        <AppMainSectionOne></AppMainSectionOne>
+        <AppMainSectionTwo></AppMainSectionTwo>
+        <AppMainSectionThree ></AppMainSectionThree>
+        <AppMainSectionFour></AppMainSectionFour>
+        <AppMainSectionFive></AppMainSectionFive>
+    </div>
+
     <AppMainSectionSix></AppMainSectionSix>
-    <AppMainNewsletter></AppMainNewsletter>
+
+    <div class="container">
+        <AppMainNewsletter></AppMainNewsletter>
+    </div>
 
 </template>
 
