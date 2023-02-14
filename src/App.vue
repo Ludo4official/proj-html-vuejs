@@ -23,16 +23,12 @@ export default {
 
 <template>
 
- <AppHeader></AppHeader>
+<AppHeader></AppHeader>
 
- 
 <AppMain></AppMain>
  
- 
- <div class="container">
-    <AppFooter></AppFooter>
- </div>
- 
+<AppFooter></AppFooter>
+
 </template>
 
 <style lang="scss">
