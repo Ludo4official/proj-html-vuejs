@@ -32,12 +32,11 @@ export default {
 
     <AppMainSectionSix></AppMainSectionSix>
 
-    <div class="container">
+    <div class="container text-center position-relative">
         <AppMainNewsletter></AppMainNewsletter>
     </div>
 
 </template>
 
 <style lang="scss" scoped>
-
 </style>
