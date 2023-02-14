@@ -31,8 +31,31 @@ export default {
         </div>
     </div>
 
-    <div class="row">
-        
+    <div class="row my-row-2">
+        <div class="col-4">
+            <div>
+                ciao
+            </div>
+            <div>
+                ciao2
+            </div>
+        </div>
+        <div class="col-4">
+            <div>
+                ciao
+            </div>
+            <div>
+                ciao2
+            </div>
+        </div>
+        <div class="col-4">
+            <div>
+                ciao
+            </div>
+            <div>
+                ciao2
+            </div>
+        </div>
     </div>
 </template>
 
@@ -71,6 +94,11 @@ export default {
             z-index: -1;
         }
     }
+}
+
+.my-row-2 {
+    margin-top: 150px;
+    text-align: center;
 }
 
 </style>
