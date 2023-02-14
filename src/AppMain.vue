@@ -23,12 +23,12 @@ export default {
 <template>
 
     <AppMainSectionOne></AppMainSectionOne>
-    <AppMainSectionTwo class="mt-5"></AppMainSectionTwo>
-    <AppMainSectionThree class="mt-5"></AppMainSectionThree>
-    <AppMainSectionFour class="mt-5"></AppMainSectionFour>
-    <AppMainSectionFive class="mt-5"></AppMainSectionFive>
-    <AppMainSectionSix class="mt-5"></AppMainSectionSix>
-    <AppMainNewsletter class="mt-5"></AppMainNewsletter>
+    <AppMainSectionTwo></AppMainSectionTwo>
+    <AppMainSectionThree ></AppMainSectionThree>
+    <AppMainSectionFour></AppMainSectionFour>
+    <AppMainSectionFive></AppMainSectionFive>
+    <AppMainSectionSix></AppMainSectionSix>
+    <AppMainNewsletter></AppMainNewsletter>
 
 </template>
 
