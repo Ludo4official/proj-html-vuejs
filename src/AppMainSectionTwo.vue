@@ -16,17 +16,17 @@ export default {
         </div>
 
         <div class="col-5 ps-5">
-            <p>
-                TESTO
+            <p class="first-p">
+                How we work
             </p>
             <h3>
-                TITOLO
+                Upgrade Your Skills <span>Upgrade Your Life</span>
             </h3>
             <p>
-                ALTRO TESTO
+                Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets of insights into your career. MaxCoach accompany learners in every stage of learning.
             </p>
-            <p>
-                Questions
+            <p class="fw-bold">
+                Download free guidebook <i class="fa-solid fa-arrow-right-long"></i>
             </p>
         </div>
     </div>
@@ -38,6 +38,19 @@ export default {
 .my-row {
     margin-top: 150px;
     min-height: 300px;
+
+    .first-p {
+        text-transform: uppercase;
+    } 
+
+    h3 {
+        font-weight: bold;
+        font-size: 2.35rem;
+
+        span {
+            color: #20ad96;
+        }
+    }
 
     .bg-img {
         background-image: url(./assets/stock-full-hd-11-670x450.jpg);
