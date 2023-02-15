@@ -7,35 +7,35 @@ export default {
 <template>
     <div class="row my-row">
         <div class="col-5">
-            <p>
-                TESTO
+            <p class="first-p">
+                testimonials
             </p>
-            <h3>
-                TITOLO
+            <h3 class="first-title">
+                Why Do People <span>*Hearts*</span> Us?
             </h3>
             <p>
-                ALTRO TESTO
+                Seeking for verbals of our service quality? Find them here. Everything is transparent and straightforward for your sense of justification.
             </p>
-            <p>
-                Questions
+            <p class="fw-bold">
+                View all <i class="fa-solid fa-arrow-right-long"></i>
             </p>
         </div>
         <div class="col-7 position-col">
             <div class="principal-card">
                 <h3>
-                    TESTO
+                    Professional team of specialists and passionate mentors at reach
                 </h3>
                 <p class="mt-5">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, molestias exercitationem provident amet ducimus voluptatibus inventore cum soluta aperiam consequuntur?
+                    I need to get a certification for English proficiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.
                 </p>
                 <div class="employee mt-5">
                     <img src="./assets/testimonial-avata-01.jpg" alt="">
                     <div class="ms-4">
                         <div class="mb-3">
-                            NOME
+                            MADLEY PONDOR
                         </div>
                         <div>
-                            MESTIERE
+                            / IT SPECIALIST
                         </div>
                     </div>
                 </div>
@@ -50,13 +50,13 @@ export default {
             </div>
             <div class="secondary-card-two">
                 <div class="employee">
-                    <img src="./assets/testimonial-avata-01.jpg" alt="">
+                    <img src="./assets/testimonial-avata-02.jpg" alt="">
                     <div class="ms-4">
                         <div class="mb-3">
-                            NOME
+                            MINA HOLLACE
                         </div>
                         <div>
-                            MESTIERE
+                            / Freelancer
                         </div>
                     </div>
                 </div>
@@ -71,6 +71,19 @@ export default {
 .my-row {
     margin-top: 150px;
     min-height: 300px;
+
+    .first-p {
+        text-transform: uppercase;
+    }
+
+    .first-title {
+        font-weight: bold;
+        font-size: 2.5rem;
+
+        span {
+            color: #20ad96;
+        }
+    }
 
     .position-col {
         position: relative;
