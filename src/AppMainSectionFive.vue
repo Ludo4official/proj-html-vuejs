@@ -16,16 +16,16 @@ export default {
         </div>
 
         <div class="col-5 ps-5">
-            <p>
-                TESTO
+            <p class="first-p">
+                everything in <span class="fw-bold">maxcoach</span>
             </p>
-            <h3>
-                TITOLO
-            </h3>
-            <p>
-                ALTRO TESTO
+            <h3 class="mt-5">
+                We're Here To <span>Transform</span> You!
+             </h3>
+            <p class="mt-5">
+                As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best.
             </p>
-            <a href="#">BUTTON</a>
+            <a href="#">Get Free Guide</a>
         </div>
     </div>
 
@@ -36,6 +36,34 @@ export default {
 .my-row {
     margin-top: 250px;
     min-height: 500px;
+
+    .first-p {
+        text-transform: uppercase;
+
+    }
+
+    h3 {
+        font-weight: bolder;
+        font-size: 2.5rem;
+
+        span {
+            color: #20ad96;
+        }
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+        background-color: #20ad96;
+        padding: 10px 40px;
+        border-radius: 10px;
+        font-weight: bold;
+
+        &:hover {
+            background-color: black;
+            color: #20ad96;
+        }
+    }
 
     .bg-img {
         background-image: url(./assets/home-3-team-image.png);
@@ -69,11 +97,6 @@ export default {
             z-index: -1;
         }
     }
-}
-
-.my-row-2 {
-    margin-top: 150px;
-    text-align: center;
 }
 
 </style>
