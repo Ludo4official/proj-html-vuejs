@@ -9,16 +9,16 @@ export default {
         <div class="jumbo">
             <div class="title">
                 <h3>
-                    TITOLO
+                    Commence Business
                 </h3>
             </div>
             <div class="mega-title">
                 <h1>
-                    MEGA TITOLO
+                    Distant Mentoring Program
                 </h1>
             </div>
             <div class="link">
-                <a href="#">BUTTON</a>
+                <a href="#">Download free guidebook<i class="fa-solid fa-arrow-right-long"></i></a>
             </div>
         </div>
     </div>
@@ -37,17 +37,24 @@ export default {
 
     .jumbo {
         width: 100%;
-        border-style: dashed;
 
         .title, .mega-title, .link {
             text-align: center;
             color: white;
+            margin-top: 20px;
 
             a {
-                color: blue;
+                color: #20ad96 ;
                 text-decoration: none;
                 background-color: white;
-                padding: 5px 40px;
+                padding: 10px 40px;
+                border-radius: 10px;
+                font-weight: bold;
+
+                &:hover {
+                    background-color: #20ad96;
+                    color: white;
+                }
             }
         }
     }
