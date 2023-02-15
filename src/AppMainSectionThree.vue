@@ -8,14 +8,14 @@ export default {
     <div class="row my-row">
         <div class="col text-center">
             <h4>
-                TESTO
+                join maxcoach at best
             </h4>
         </div>
     </div>
     <div class="row">
         <div class="col text-center">
             <h2>
-                TESTO
+                Latest Online <span>Courses</span>
             </h2>
         </div>
     </div>
@@ -31,24 +31,48 @@ export default {
                     <div class="carousel-item active">
                         <div class="d-block d-flex justify-content-center py-5">
                             <div class="card me-3" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/course-02-480x298.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">$40,00</h5>
+                                    <p class="card-text">Learning to Write as a Professional Author</p>
+                                    <div class="d-flex">
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-file-lines"></i>20 Lessons
+                                        </div>
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-user"></i>50 students
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card me-3" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/stock-full-hd-03-480x298.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">$0,00</h5>
+                                    <p class="card-text">Customer-centric Info-Tech Strategies</p>
+                                    <div class="d-flex">
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-file-lines"></i>24 Lessons
+                                        </div>
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-user"></i>769 Students
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top" alt="...">
+                            <img src="./assets/stock-full-hd-04-480x298.jpg" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <h5 class="card-title">$19,00</h5>
+                                    <p class="card-text">Open Programming Courses for Everyone: Python</p>
+                                    <div class="d-flex">
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-file-lines"></i>17 Lessons
+                                        </div>
+                                        <div class="w-50">
+                                            <i class="fa-regular fa-user"></i>62 Students
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -79,7 +103,7 @@ export default {
     <div class="row">
         <div class="col text-center">
             <p>
-                TESTO TESTO TESTO
+                Control your personal preference settings to get notified about appropriate courses. <span class="fw-bold">View all courses <i class="fa-solid fa-arrow-right-long"></i></span>
             </p>
         </div>
     </div>
@@ -89,6 +113,41 @@ export default {
 
 .my-row {
     margin-top: 150px;
+
+    h4 {
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+
+    span {
+        color: #20ad96;
+    }
+}
+
+.card-title {
+    color: #20ad96;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.w-50 {
+    font-size: 0.8rem;
+    color: #696969;
+
+    i {
+        margin-right: 5px;
+    }
+}
+
+.card:hover {
+    cursor: pointer;
+    color: #20ad96;
 }
 
 </style>
