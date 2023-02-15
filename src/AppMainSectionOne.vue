@@ -7,17 +7,17 @@ export default {
 <template>
     <div class="row my-row">
         <div class="col-5">
-            <p>
-                TESTO
+            <p class="first-p">
+                Everything in <strong>MaxCoach</strong>
             </p>
-            <h3>
-                TITOLO
-            </h3>
+            <h2>
+                Learn about our <span>Work Culture</span> at MaxCoach
+            </h2>
             <p>
-                ALTRO TESTO
+                Spend some time to visit our website or head office and discover our current courses, enrollment procedure, and registration deadline. We're opening new classes every beginning of each month.
             </p>
             <p>
-                Questions
+                Have questions? <span class="questions">Get Free Guide<i class="fa-solid fa-arrow-right-long"></i></span>
             </p>
         </div>
         <div class="col-7">
@@ -33,27 +33,27 @@ export default {
 
     <div class="row my-row-2">
         <div class="col-4">
-            <div>
-                ciao
+            <div class="numbers">
+                129+
             </div>
-            <div>
-                ciao2
-            </div>
-        </div>
-        <div class="col-4">
-            <div>
-                ciao
-            </div>
-            <div>
-                ciao2
+            <div class="text">
+                enrolled learners
             </div>
         </div>
         <div class="col-4">
-            <div>
-                ciao
+            <div class="numbers">
+                80
             </div>
-            <div>
-                ciao2
+            <div class="text">
+                finished sessions
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="numbers">
+                4%
+            </div>
+            <div class="text">
+                satisfaction rate
             </div>
         </div>
     </div>
@@ -64,6 +64,25 @@ export default {
 .my-row {
     margin-top: 150px;
     min-height: 300px;
+
+    .first-p {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-weight: bolder;
+        font-size: 2.35rem;
+
+        span {
+            color: #20ad96;
+        }
+    }
+
+    .questions {
+        color: #20ad96;
+        font-weight: bold;
+        cursor: pointer;
+    }
 
     .bg-img {
         background-image: url(./assets/stock-full-hd-10-ohki1ayywq3cqutettrncduujpoaorifqu4relt2ts.jpg);
@@ -99,6 +118,17 @@ export default {
 .my-row-2 {
     margin-top: 150px;
     text-align: center;
+
+    .numbers {
+        color: #20ad96;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .text {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
 }
 
 </style>
